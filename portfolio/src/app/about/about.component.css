@@ -1,0 +1,34 @@
+.padding-about {
+    padding: 5%;
+}
+.about-img-content {
+    background: url('../../assets/coder.jpg') center top / cover no-repeat;
+}
+.about-img-content {
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+}
+.shadow-bg {
+    box-shadow: 0 1px 6px rgba(0,0,0,.1), 0 1px 6px rgba(0,0,0,.2);
+}
+.about-name {
+    font-family: Dosis,'Open Sans','Sans Serif'!important;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 25px 0 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-title {
+    font-size: 14px!important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 15px 0;
+    text-align: center;
+}
