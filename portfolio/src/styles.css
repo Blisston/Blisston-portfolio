@@ -1,4 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 * {
     font-family: 'Open Sans', sans-serif;
+    
+}
+body, html {
+
+    line-height: 1;
+    color: #555;
+    background-color: #e6e6e6;
+    font-family: 'Open Sans','Sans Serif'!important;
 }
