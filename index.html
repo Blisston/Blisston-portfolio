@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>
+    Blisston Kirubha
+  </title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Technologies</a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Blisston Kirubha</span>
+        </h1>
+        <div>
+          <span id="typed"></span>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="work" id="skills">
+      <div class="row">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+          <div class="left">
+            <ul class="skills-bar-container">
+              <label>HTML5 / CSS3</label>
+              <span class="percent"></span>
+              <li>
+                <span class="progressbar progressblue" id="progress-htmlcss"></span>
+              </li>
+
+              <label>JavaScript / Angular</label>
+              <span class="percent"></span>
+              <li>
+                <span class="progressbar progressblue" id="progress-js"></span>
+              </li>
+
+              <label>Responsive Web Design</label>
+              <span class="percent"></span>
+              <li>
+                <span class="progressbar progressblue" id="progress-design"></span>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="skills-bar-container">
+              <label>Java</label>
+              <span class="percent"></span>
+              <li>
+                <span class="progressbar progressblue" id="progress-java"></span>
+              </li>
+
+              <label>Python</label>
+              <span class="percent"></span>
+              <li>
+                <span class="progressbar progressblue" id="progress-python"></span>
+              </li>
+
+              <label>Flutter</label>
+              <span class="percent"></span>
+              <li>
+                <span class="progressbar progressblue" id="progress-flutter"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+    <section class="work" id="projects">
+      <div class="row">
+        <h2>Personal projects</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Covid 19 Tracker</h3>
+              <p>
+                A simple web app to get the latest covid spread across world and displayed neatly with charts and maps
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Angular 9</li>
+                <li>Chart.js / Maps</li>
+              </ul>
+
+              <div class="work__links">
+                <!-- <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a> -->
+              </div>
+            </div>
+            <div class="work__image-box">
+
+              <div class="csslider infinity" id="slider01">
+                <input type="radio" name="slides" id="slides_01" />
+                <input type="radio" name="slides" checked="checked" id="slides_02" />
+                <input type="radio" name="slides" id="slides_03" />
+                <input type="radio" name="slides" id="slides_04" />
+                <input type="radio" name="slides" id="slides_05" />
+                <input type="radio" name="slides" id="slides_06" />
+                <ul>
+
+                  <li><img src="./images/projects/covid.jpg" />
+                  </li>
+                  <li><img src="./images/projects/covid1.jpg" />
+                  </li>
+                  <li><img src="./images/projects/covid2.jpg" />
+                  </li>
+                  <li><img src="./images/projects/covid3.jpg" />
+                  </li>
+                </ul>
+                <div class="arrows">
+                  <label for="slides_01"></label>
+                  <label for="slides_02"></label>
+                  <label for="slides_03"></label>
+                  <label for="slides_04"></label>
+                  <label for="slides_05"></label>
+                  <label for="slides_06"></label>
+                  <label class="goto-first" for="slides_01"></label>
+                  <label class="goto-last" for="slides_06"></label>
+                </div>
+                <div class="navigation">
+                  <div>
+                    <label for="slides_01"></label>
+                    <label for="slides_02"></label>
+                    <label for="slides_03"></label>
+                    <label for="slides_04"></label>
+                    <label for="slides_05"></label>
+                    <label for="slides_06"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Calculator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+
+              <div class="csslider infinity" id="slider11">
+                <input type="radio" name="slides" id="slides_11" />
+                <input type="radio" name="slides" checked="checked" id="slides_12" />
+                <input type="radio" name="slides" id="slides_13" />
+                <input type="radio" name="slides" id="slides_14" />
+                <input type="radio" name="slides" id="slides_15" />
+                <input type="radio" name="slides" id="slides_16" />
+                <ul>
+
+                  <li><img src="./images/projects/covid.jpg" />
+                  </li>
+                  <li><img src="./images/projects/covid1.jpg" />
+                  </li>
+                  <li><img src="./images/projects/covid2.jpg" />
+                  </li>
+                  <li><img src="./images/projects/covid3.jpg" />
+                  </li>
+                </ul>
+                <div class="arrows">
+                  <label for="slides_11"></label>
+                  <label for="slides_12"></label>
+                  <label for="slides_13"></label>
+                  <label for="slides_14"></label>
+                  <label for="slides_15"></label>
+                  <label for="slides_16"></label>
+                  <label class="goto-first" for="slides_11"></label>
+                  <label class="goto-last" for="slides_16"></label>
+                </div>
+                <div class="navigation">
+                  <div>
+                    <label for="slides_11"></label>
+                    <label for="slides_12"></label>
+                    <label for="slides_13"></label>
+                    <label for="slides_14"></label>
+                    <label for="slides_15"></label>
+                    <label for="slides_16"></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Technologies</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/technologies/angular.png" class="client__logo" />
+          <img src="./images/technologies/flutter.webp" class="client__logo" />
+          <img src="./images/technologies/pi.jpg" class="client__logo" />
+          <img src="./images/technologies/spring.png" class="client__logo" />
+          <img src="./images/technologies/node.png" class="client__logo" />
+          <img src="./images/technologies/docker.png" class="client__logo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./index.js"></script>
+
+
+</body>
+
+</html>
